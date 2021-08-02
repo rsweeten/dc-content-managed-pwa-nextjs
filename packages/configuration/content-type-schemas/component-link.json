@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-link.json",
+    "schemaId": "https://amp-rsa.amplience.com/link.json",
+    "validationLevel": "CONTENT_TYPE"
+}

@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-slice-cards.json",
+    "schemaId": "https://amp-rsa.amplience.com/slice-cards.json",
+    "validationLevel": "CONTENT_TYPE"
+}

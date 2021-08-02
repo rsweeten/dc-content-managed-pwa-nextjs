@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-extended-banner.json",
+    "schemaId": "https://anyafinn.dev/component-extended-banner.json",
+    "validationLevel": "CONTENT_TYPE"
+}

@@ -11,7 +11,7 @@
         },
         {
             "label": "JSON",
-            "templatedUri":"https://{{vse.domain}}/content/id/{{content.sys.id}}?depth=all&format=inlined",
+            "templatedUri":"https://delivery-preview.visualizations.content.amplience.net?id={{content.sys.id}}&vse={{vse.domain}}&locale={{locales}}&hub=raydemo&realtime=true",
             "default": false
         }],
         "icons": [

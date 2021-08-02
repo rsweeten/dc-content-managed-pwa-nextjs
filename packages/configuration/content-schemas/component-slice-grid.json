@@ -1,0 +1,80 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://amp-rsa.amplience.com/slice-grid.json",
+
+	"title": "Title",
+	"description": "Description",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"properties": {
+        "component": {
+			"type": "string",
+			"const": "SliceGridBanner"
+		},
+		"heroImage": {
+			"title": "Hero Image",
+			"allOf": [
+				{ "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link" }
+			]
+		},
+        "eyebrowText": {
+			"title": "Hero Eyebrow Text",
+			"description": "Text above the bold",
+			"type": "string",
+			"minLength": 0,
+			"maxLength": 30
+		},
+		"staticBold": {
+			"title": "Bold Intro Text",
+			"description": "Text above the cycling text",
+			"type": "string",
+			"minLength": 0,
+			"maxLength": 15
+		},
+        "cycleText": {
+			"title": "Cycling Bold Text",
+			"description": "The Bold text that changes",
+			"type": "array",
+			"minItems": 0,
+			"maxItems": 10,
+			"items": {
+				"type": "string"
+			}
+		},
+        "cycleCadence": {
+			"title": "Cycle Cadence",
+			"description": "Cadence of the cycling text (how fast in milliseconds)",
+			"type": "number",
+			"minimum": 0,
+			"maximum": 1500
+		},
+        "subText": {
+			"title": "Subtext",
+			"description": "Smaller text below all the other text",
+			"type": "string",
+			"minLength": 0,
+			"maxLength": 400
+		},
+		"images": {
+			"type": "array",
+			"title": "Images",
+			"description": "Please select the images to display in this sliced image component",
+			"minItems": 1,
+			"maxItems": 10,
+			"items": {
+				"allOf": [
+					{
+						"$ref": "https://amp-rsa.amplience.com/di-image.json"
+					}
+				]
+			}
+		}
+	},
+	"propertyOrder": []
+}

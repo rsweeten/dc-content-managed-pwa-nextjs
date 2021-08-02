@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-cycle-text.json",
+    "schemaId": "https://rs-modular.com/cycletext.json",
+    "validationLevel": "CONTENT_TYPE"
+}

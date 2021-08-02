@@ -1,0 +1,42 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://amp-rsa.amplience.com/slice-cards.json",
+
+	"title": "Title",
+	"description": "Description",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"properties": {
+        "component": {
+			"type": "string",
+			"const": "SliceCards"
+		},
+		"CycleText": {
+			"title": "Cycle Text Banner",
+			"allOf": [
+				{ "$ref": "https://rs-modular.com/cycletext.json" }
+			]
+		},
+		"cards": {
+			"type": "array",
+			"title": "Cards",
+			"description": "Please select the Cards to display in this Sliced Cards component",
+			"minItems": 1,
+			"maxItems": 10,
+			"items": {
+				"allOf": [
+					{
+						"$ref": "https://amp-rsa.amplience.com/card.json"
+					}
+				]
+			}
+		}
+	},
+	"propertyOrder": []
+}

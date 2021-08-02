@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-slice-grid.json",
+    "schemaId": "https://amp-rsa.amplience.com/slice-grid.json",
+    "validationLevel": "CONTENT_TYPE"
+}

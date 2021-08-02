@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-image.json",
+    "schemaId": "https://amp-rsa.amplience.com/image.json",
+    "validationLevel": "CONTENT_TYPE"
+}
