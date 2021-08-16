@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://amp-rsa.amplience.com/slice-cards.json",
+	"$id": "https://amp-rsa.amplience.com/slice-cards-enhanced.json",
 
 	"title": "Title",
 	"description": "Description",
@@ -50,6 +50,17 @@
 			"minimum": 0,
 			"maximum": 3000
 		},
+        "cardAngle": {
+			"title": "Card Skew Angle",
+			"description": "add a slight counter/clockwise slant to the cards",
+			"examples": [
+				-10, 10, -3, 3
+			],
+            "default": 0,
+			"type": "number",
+			"minimum": -10,
+			"maximum": 10
+		},
 		"cards": {
 			"type": "array",
 			"title": "Cards",
@@ -59,7 +70,7 @@
 			"items": {
 				"allOf": [
 					{
-						"$ref": "https://amp-rsa.amplience.com/card.json"
+						"$ref": "https://amp-rsa.amplience.com/card-enhanced.json"
 					}
 				]
 			}

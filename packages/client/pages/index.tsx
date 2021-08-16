@@ -9,9 +9,13 @@ import Navigation from '../components/Navigation';
 import SearchBox from '../components/SearchBox';
 import Footer from '../components/Footer';
 import EditorialBlock from '../components/EditorialBlock';
+import SliceGridBanner from '../components/SliceGridBanner';
+import SliceCardBanner from '../components/SliceCardBanner';
 import HeroBannerBlock from '../components/HeroBannerBlock';
+import ExtendedBannerBlock from '../components/ExtendedBannerBlock';
 import GalleryBlock from '../components/GalleryBlock';
 import Sidebar from '../components/Sidebar';
+import GenericCMSComponent from '../components/GenericCMSComponent';
 import { fetchContent } from '../utils/fetchContent';
 
 interface Props {
@@ -91,6 +95,17 @@ const Index: NextPage<Props> = (props: Props) => {
                     case 'GalleryBlock':
                         ComponentType = GalleryBlock;
                         break;
+                    case 'ExtendedBannerBlock':
+                      ComponentType = ExtendedBannerBlock;
+                      break;
+                    case 'SliceGridBanner':
+                      ComponentType = SliceGridBanner;
+                      break;
+                    case 'SliceCards':
+                      ComponentType = SliceCardBanner;
+                      break;
+                    default:
+                        ComponentType = GenericCMSComponent;
                 }
                 
                 return <ComponentType {...component} />;
@@ -108,10 +123,14 @@ const Index: NextPage<Props> = (props: Props) => {
 Index.getInitialProps = async (context) => {
   const navigation = fetchContent('slots/navigation', context);
   const slot = fetchContent('slots/homepage-hero', context);
+  const slice = fetchContent('slicegridtest', context);
+  const productlist = fetchContent('product/list', context);
 
   return {
     navigation: await navigation,
-    slot: await slot
+    slot: await slot,
+    slice: await slice,
+    productList: await productlist
   };
 };
 

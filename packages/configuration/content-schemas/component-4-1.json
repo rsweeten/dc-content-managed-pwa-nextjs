@@ -1,0 +1,104 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://amp-rsa.amplience.com/four-one.json",
+
+	"title": "Title",
+	"description": "Description",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"component": {
+		"type": "string",
+		"const": "FourOne"
+	},
+	"properties": {
+        "component": {
+			"type": "string",
+			"const": "FourOne"
+		},
+        "orientation": {
+            "title": "Module Orientation",
+            "description": "left: large tile on Left; right: large tile on right",
+            "type": "string",
+            "default": "left",
+            "enum": [
+                "left",
+                "right"
+            ]
+        },
+        "mobileDisplay": {
+            "title": "Mobile Display Option",
+            "description": "select between vertically stacked, 1 large followed by a 2x2 grid, or all carousel",
+            "type": "string",
+            "default": "vertical",
+            "examples": [
+                "vertical = all vertically stacked",
+                "1x4 = 1 large tile followed by a 2x2 grid of smaller tiles",
+                "carousel = all tiles create a carousel"
+            ],
+            "enum": [
+                "vertical",
+                "1x4",
+                "carousel"
+            ]
+        },
+        "textAlignment": {
+            "title": "Text Alignment",
+            "description": "left, right, or center text alignment (Overrides individual card settings)",
+            "type": "string",
+            "default": "left",
+            "enum": [
+                "left",
+                "right",
+                "center"
+            ]
+          },
+          "verticalAlignment": {
+            "title": "Vertical Text Alignment",
+            "description": "top, middle, or bottom text alignment (Overrides individual card settings)",
+            "type": "string",
+            "default": "bottom",
+            "enum": [
+                "top",
+                "middle",
+                "bottom"
+            ]
+          },
+          "linkPosition": {
+            "title": "Position Link with card text",
+            "description": "place link with the card text OR below the image. Text Alignment still applies. (Overrides individual card settings)",
+            "default": "withtext",
+            "type": "string",
+            "enum": [
+                "withtext",
+                "belowimage"
+            ]
+          },
+        "mainCard": {
+            "title": "Main Card",
+			"allOf": [
+				{ "$ref": "https://amp-rsa.amplience.com/card-enhanced.json" }
+			]
+        },
+		"cards": {
+			"type": "array",
+			"title": "Cards",
+			"description": "Please select the Cards to display",
+			"minItems": 4,
+			"maxItems": 4,
+			"items": {
+				"allOf": [
+					{
+						"$ref": "https://amp-rsa.amplience.com/card-enhanced.json"
+					}
+				]
+			}
+		}
+	},
+	"propertyOrder": []
+}

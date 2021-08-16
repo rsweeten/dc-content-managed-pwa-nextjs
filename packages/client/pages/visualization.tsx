@@ -5,7 +5,13 @@ import EditorialBlock from '../components/EditorialBlock';
 import HeroBannerBlock from '../components/HeroBannerBlock';
 import GalleryBlock from '../components/GalleryBlock';
 import Navigation from '../components/Navigation';
+
+import ExtendedBannerBlock from '../components/ExtendedBannerBlock';
 import { fetchContentById } from '../utils/fetchContent';
+import SliceGridBanner from '../components/SliceGridBanner';
+import SliceCardBanner from '../components/SliceCardBanner';
+import GenericCMSComponent from '../components/GenericCMSComponent';
+import FourOne from '../components/FourOne';
 
 interface Props {
     component: any
@@ -18,6 +24,7 @@ const Visualization: NextPage<Props> = (props: Props) => {
 
     let ComponentType = null;
 
+    console.log(component);
     switch (component.component) {
         case 'HeroBannerBlock':
             ComponentType = HeroBannerBlock;
@@ -31,6 +38,20 @@ const Visualization: NextPage<Props> = (props: Props) => {
         case 'Navigation':
             ComponentType = Navigation;
             break;
+        case 'ExtendedBannerBlock':
+            ComponentType = ExtendedBannerBlock;
+            break;
+        case 'SliceGridBanner':
+            ComponentType = SliceGridBanner;
+            break;
+        case 'SliceCards':
+            ComponentType = SliceCardBanner;
+            break;
+        case 'FourOne':
+            ComponentType = FourOne;
+            break;
+        default:
+            ComponentType = GenericCMSComponent;
     }
 
     return (

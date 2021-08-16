@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-4-1.json",
+    "schemaId": "https://amp-rsa.amplience.com/four-one.json",
+    "validationLevel": "CONTENT_TYPE"
+}

@@ -34,11 +34,18 @@
           "Product SKU",
           "Page ID"
         ]
+      },
+      "color": {
+        "title": "Link Color",
+        "description": "Color for all links in the card",
+        "format": "color",
+        "type": "string"
       }
     },
     "propertyOrder": [
       "label",
       "type",
-      "value"
+      "value",
+      "color"
     ]
   }

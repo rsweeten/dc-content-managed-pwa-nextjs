@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-card-enhanced.json",
+    "schemaId": "https://amp-rsa.amplience.com/card-enhanced.json",
+    "validationLevel": "CONTENT_TYPE"
+}

@@ -44,7 +44,15 @@
 			"minItems": 0,
 			"maxItems": 10,
 			"items": {
-				"type": "string"
+				"type": "object",
+				"properties": {
+					"text": {
+						"title": "text",
+						"type": "string",
+						"minLength": 0,
+						"maxLength": 30
+					}
+				}
 			}
 		},
         "subText": {
@@ -60,22 +68,11 @@
 			"type": "number",
 			"examples":[
 				200,
-				500
+				500,
+				1500
 			],
 			"minimum": 0,
-			"maximum": 1500
-		},
-		"animation": {
-			"title": "Animation Style",
-			"description": "determines the transitions of the cycling portion of the text",
-			"type": "string",
-			"enum": [
-				"Fades",
-				"SlideInLeft",
-				"SlideInRight",
-				"SlideDown",
-				"SlideUp"
-			]
+			"maximum": 5000
 		},
 		"desktopPlacement": {
 			"title": "Desktop Placement",
@@ -85,6 +82,17 @@
 			"enum": [
 				"left",
 				"right"
+			]
+		},
+		"verticalAlignment": {
+			"title": "Vertical Alignment",
+			"description": "Vertical alignment fo all text",
+			"type": "string",
+			"default": "bottom",
+			"enum": [
+				"top",
+				"middle",
+				"bottom"
 			]
 		},
 		"desktopTextAlignment": {
