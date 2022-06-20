@@ -1,0 +1,5 @@
+{
+    "body": "../content-schemas/component-cycle-vid.json",
+    "schemaId": "https://amp-rsa.amplience.com/cycle-vid.json",
+    "validationLevel": "CONTENT_TYPE"
+}

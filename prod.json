@@ -1,0 +1,226 @@
+{
+    "_v": "20.4",
+    "_type": "product",
+    "currency": "GBP",
+    "id": "25589408M",
+    "image_groups": [
+        {
+            "_type": "image_group",
+            "images": [
+                {
+                    "_type": "image",
+                    "alt": "Tie Front Animal Print Dress, , large",
+                    "dis_base_link": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZFR_002/on/demandware.static/-/Sites-apparel-m-catalog/default/dw85ac331c/images/large/PG.10237834.JJFD2B0.PZ.jpg",
+                    "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw85ac331c/images/large/PG.10237834.JJFD2B0.PZ.jpg",
+                    "title": "Tie Front Animal Print Dress, "
+                },
+                {
+                    "_type": "image",
+                    "alt": "Tie Front Animal Print Dress, , large",
+                    "dis_base_link": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZFR_002/on/demandware.static/-/Sites-apparel-m-catalog/default/dw62c02867/images/large/PG.10237834.JJFD2B0.BZ.jpg",
+                    "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw62c02867/images/large/PG.10237834.JJFD2B0.BZ.jpg",
+                    "title": "Tie Front Animal Print Dress, "
+                }
+            ],
+            "view_type": "large"
+        },
+        {
+            "_type": "image_group",
+            "images": [
+                {
+                    "_type": "image",
+                    "alt": "Tie Front Animal Print Dress, , medium",
+                    "dis_base_link": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZFR_002/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6650769d/images/medium/PG.10237834.JJFD2B0.PZ.jpg",
+                    "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6650769d/images/medium/PG.10237834.JJFD2B0.PZ.jpg",
+                    "title": "Tie Front Animal Print Dress, "
+                },
+                {
+                    "_type": "image",
+                    "alt": "Tie Front Animal Print Dress, , medium",
+                    "dis_base_link": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZFR_002/on/demandware.static/-/Sites-apparel-m-catalog/default/dwadc2580a/images/medium/PG.10237834.JJFD2B0.BZ.jpg",
+                    "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dwadc2580a/images/medium/PG.10237834.JJFD2B0.BZ.jpg",
+                    "title": "Tie Front Animal Print Dress, "
+                }
+            ],
+            "view_type": "medium"
+        },
+        {
+            "_type": "image_group",
+            "images": [
+                {
+                    "_type": "image",
+                    "alt": "Tie Front Animal Print Dress, , small",
+                    "dis_base_link": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZFR_002/on/demandware.static/-/Sites-apparel-m-catalog/default/dwb13a10e0/images/small/PG.10237834.JJFD2B0.PZ.jpg",
+                    "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dwb13a10e0/images/small/PG.10237834.JJFD2B0.PZ.jpg",
+                    "title": "Tie Front Animal Print Dress, "
+                },
+                {
+                    "_type": "image",
+                    "alt": "Tie Front Animal Print Dress, , small",
+                    "dis_base_link": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZFR_002/on/demandware.static/-/Sites-apparel-m-catalog/default/dw96237eb4/images/small/PG.10237834.JJFD2B0.BZ.jpg",
+                    "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw96237eb4/images/small/PG.10237834.JJFD2B0.BZ.jpg",
+                    "title": "Tie Front Animal Print Dress, "
+                }
+            ],
+            "view_type": "small"
+        }
+    ],
+    "inventory": {
+        "_type": "inventory",
+        "ats": 600,
+        "backorderable": false,
+        "id": "inventory_m",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 600
+    },
+    "long_description": "We love our newest animal print tie front soft chiffon dress. Dress it up with anew  piece of Commerce Cloud Store jewelry and you are set from nine-to-five and beyond.",
+    "master": {
+        "_type": "master",
+        "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/25589408M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "master_id": "25589408M",
+        "orderable": true,
+        "price": 71.03
+    },
+    "min_order_quantity": 1,
+    "name": "Tie Front Animal Print Dress",
+    "page_description": "We love our newest animal print tie front soft chiffon dress. Dress it up with anew  piece of Commerce Cloud Store jewelry and you are set from nine-to-five and beyond.",
+    "page_title": "Tie Front Animal Print Dress",
+    "price": 71.03,
+    "primary_category_id": "womens-clothing-dresses",
+    "short_description": "We love our newest animal print tie front soft chiffon dress. Dress it up with anew  piece of Commerce Cloud Store jewelry and you are set from nine-to-five and beyond.",
+    "step_quantity": 1,
+    "type": {
+        "_type": "product_type",
+        "master": true
+    },
+    "valid_from": {
+        "default": "2010-12-29T05:00:00.000Z"
+    },
+    "variants": [
+        {
+            "_type": "variant",
+            "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/701643415366M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "orderable": true,
+            "price": 71.03,
+            "product_id": "701643415366M",
+            "variation_values": {
+                "color": "JJFD2B0",
+                "size": "006"
+            }
+        },
+        {
+            "_type": "variant",
+            "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/701643415335M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "orderable": true,
+            "price": 71.03,
+            "product_id": "701643415335M",
+            "variation_values": {
+                "color": "JJFD2B0",
+                "size": "014"
+            }
+        },
+        {
+            "_type": "variant",
+            "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/701643415328M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "orderable": true,
+            "price": 71.03,
+            "product_id": "701643415328M",
+            "variation_values": {
+                "color": "JJFD2B0",
+                "size": "012"
+            }
+        },
+        {
+            "_type": "variant",
+            "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/701643415311M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "orderable": true,
+            "price": 71.03,
+            "product_id": "701643415311M",
+            "variation_values": {
+                "color": "JJFD2B0",
+                "size": "010"
+            }
+        },
+        {
+            "_type": "variant",
+            "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/701643415373M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "orderable": true,
+            "price": 71.03,
+            "product_id": "701643415373M",
+            "variation_values": {
+                "color": "JJFD2B0",
+                "size": "008"
+            }
+        },
+        {
+            "_type": "variant",
+            "link": "https://zzfr-002.sandbox.us01.dx.commercecloud.salesforce.com/s/RefArchGlobal/dw/shop/v20_4/products/701643415342M?client_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "orderable": true,
+            "price": 71.03,
+            "product_id": "701643415342M",
+            "variation_values": {
+                "color": "JJFD2B0",
+                "size": "016"
+            }
+        }
+    ],
+    "variation_attributes": [
+        {
+            "_type": "variation_attribute",
+            "id": "color",
+            "name": "Colour",
+            "values": [
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "New Rattan Multi",
+                    "orderable": true,
+                    "value": "JJFD2B0"
+                }
+            ]
+        },
+        {
+            "_type": "variation_attribute",
+            "id": "size",
+            "name": "Size",
+            "values": [
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "6",
+                    "orderable": true,
+                    "value": "006"
+                },
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "8",
+                    "orderable": true,
+                    "value": "008"
+                },
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "10",
+                    "orderable": true,
+                    "value": "010"
+                },
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "12",
+                    "orderable": true,
+                    "value": "012"
+                },
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "14",
+                    "orderable": true,
+                    "value": "014"
+                },
+                {
+                    "_type": "variation_attribute_value",
+                    "name": "16",
+                    "orderable": true,
+                    "value": "016"
+                }
+            ]
+        }
+    ]
+}

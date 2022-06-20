@@ -79,23 +79,24 @@
                 "belowimage"
             ]
           },
-        "mainCard": {
-            "title": "Main Card",
-			"allOf": [
-				{ "$ref": "https://amp-rsa.amplience.com/card-enhanced.json" }
-			]
-        },
 		"cards": {
 			"type": "array",
 			"title": "Cards",
 			"description": "Please select the Cards to display",
-			"minItems": 4,
-			"maxItems": 4,
+			"minItems": 5,
+			"maxItems": 5,
 			"items": {
 				"allOf": [
-					{
-						"$ref": "https://amp-rsa.amplience.com/card-enhanced.json"
+					{ "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" },
+				{
+					"properties": {
+						"contentType": {
+							"enum": [
+								"https://amp-rsa.amplience.com/card-enhanced.json"
+							]
+						}
 					}
+				}
 				]
 			}
 		}

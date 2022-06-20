@@ -12,6 +12,7 @@ import SliceGridBanner from '../components/SliceGridBanner';
 import SliceCardBanner from '../components/SliceCardBanner';
 import GenericCMSComponent from '../components/GenericCMSComponent';
 import FourOne from '../components/FourOne';
+import CycleVid from '../components/CycleVid';
 
 interface Props {
     component: any
@@ -49,6 +50,9 @@ const Visualization: NextPage<Props> = (props: Props) => {
             break;
         case 'FourOne':
             ComponentType = FourOne;
+            break;
+        case 'CycleVid':
+            ComponentType = CycleVid;
             break;
         default:
             ComponentType = GenericCMSComponent;

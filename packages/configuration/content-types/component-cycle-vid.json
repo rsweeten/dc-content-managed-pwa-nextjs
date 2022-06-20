@@ -1,0 +1,24 @@
+{
+    "contentTypeUri": "https://amp-rsa.amplience.com/cycle-vid.json",
+    "settings":
+    {
+        "label": "Cycle Text & Video",
+        "visualizations": [
+        {
+            "label": "PWA (Localhost)",
+            "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "default": true
+        },
+        {
+            "label": "JSON",
+            "templatedUri":"https://delivery-preview.visualizations.content.amplience.net?id={{content.sys.id}}&vse={{vse.domain}}&locale={{locales}}&hub=raydemo&realtime=true",
+            "default": false
+        }],
+        "icons": [
+        {
+            "size": 256,
+            "url": "https://bigcontent.io/cms/icons/ca-types-grid-images.png"
+        }]
+    },
+    "repositories": ["content"]
+}

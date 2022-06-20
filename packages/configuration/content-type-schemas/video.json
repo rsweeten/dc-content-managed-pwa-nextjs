@@ -1,0 +1,5 @@
+{
+  "body": "../content-schemas/video-schema.json",
+  "schemaId": "https://anyafinn.dev/video.json",
+  "validationLevel": "CONTENT_TYPE"
+}

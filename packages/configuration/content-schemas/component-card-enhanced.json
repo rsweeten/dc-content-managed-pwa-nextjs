@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://amp-rsa.amplience.com/card-enhanced.json",
     "title": "Card",
-    "description": "A single card of content",
+    "description": "A single card of content, with some extra styling options",
     "allOf": [
       {
         "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -10,6 +10,10 @@
     ],
     "type": "object",
     "properties": {
+      "component": {
+        "type": "string",
+        "const": "CardEnhanced"
+      },
       "image": {
         "type": "object",
         "title": "Image",
@@ -81,19 +85,7 @@
         "default": "normal",
         "enum": [
             "normal",
-            "multiply",
-            "screen",
-            "overlay",
-            "darken",
-            "lighten",
-            "color-dodge",
-            "color-burn",
-            "difference",
-            "exclusion",
-            "hue",
-            "saturation",
-            "color",
-            "luminosity"
+            "overlay"
         ]
       },
       "links": {

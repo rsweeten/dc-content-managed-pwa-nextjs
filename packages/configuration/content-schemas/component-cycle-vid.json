@@ -1,0 +1,43 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://amp-rsa.amplience.com/cycle-vid.json",
+
+	"title": "Title",
+	"description": "Description",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"properties": {
+        "component": {
+			"type": "string",
+			"const": "CycleVid"
+		},
+		"CycleText": {
+			"title": "Cycle Text Banner",
+            "allOf": [
+				{ "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" },
+				{
+					"properties": {
+						"contentType": {
+							"enum": [
+								"https://rs-modular.com/cycletext.json"
+							]
+						}
+					}
+				}
+			]
+		},
+        "video" : {
+            "title": "Video",
+            "allOf": [
+                {"$ref" : "https://anyafinn.dev/video.json"}
+            ]
+        }
+	},
+	"propertyOrder": []
+}
